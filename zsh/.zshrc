@@ -18,3 +18,6 @@ eval "$(mise activate zsh)"
 
 # starship [https://starship.rs]
 eval "$(starship init zsh)"
+
+# fzf [https://github.com/junegunn/fzf]
+source <(fzf --zsh)
