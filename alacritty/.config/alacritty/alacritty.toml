@@ -1,5 +1,5 @@
 import = [
-	"~/.config/alacritty/themes/everforest_dark.toml"
+	"~/.config/alacritty/themes/dracula.toml"
 ]
 
 [font]
@@ -10,4 +10,4 @@ size = 15.0
 padding = { x = 8, y = 8 }
 
 [shell]
-program = "/usr/local/bin/fish"
+program = "zsh"
