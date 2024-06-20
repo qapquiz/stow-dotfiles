@@ -1,0 +1,15 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format="""
+$directory\
+$git_branch\
+$git_status\
+$nodejs\
+"""
+
+add_newline = false
+
+[directory]
+truncation_length = 3
+truncation_symbol = "…/"
