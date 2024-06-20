@@ -1,4 +1,5 @@
 # env
+export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
 
 # alias
 alias ls="eza"
