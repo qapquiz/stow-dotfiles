@@ -10,6 +10,9 @@ alias mvim="NVIM_APPNAME=smolvim nvim"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
+# zsh-autosuggestions
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # zoxide [https://github.com/ajeetdsouza/zoxide]
 eval "$(zoxide init zsh)"
 
