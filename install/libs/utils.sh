@@ -1,3 +1,5 @@
+#!/bin/bash
+
 is_macos() {
 	if [ "$(uname)" = "Darwin" ]; then
 		return 0
