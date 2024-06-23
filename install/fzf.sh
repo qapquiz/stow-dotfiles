@@ -1,1 +1,6 @@
-brew install fzf
+source ./libs/utils.sh
+
+if is_macos; then
+	brew install fzf
+fi
+
