@@ -1,13 +1,18 @@
-import = [
-	"~/.config/alacritty/themes/dracula.toml"
-]
 
 [font]
-normal = { family = "Maple Mono NF", style = "Regular" }
-size = 15.0
+normal = { family = "MapleMono Nerd Font Mono", style = "Regular" }
+size = 18.0
 
 [window]
 padding = { x = 8, y = 8 }
+option_as_alt = "OnlyLeft"
 
-[shell]
+[general]
+import = [
+	"~/.config/alacritty/themes/everforest_dark.toml"
+]
+
+[terminal]
+
+[terminal.shell]
 program = "zsh"
