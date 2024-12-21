@@ -1,7 +1,15 @@
 theme = Everforest Dark - Hard
 
+# window
+
 window-padding-x = 8,8
 
-font-family = "CommitMono Nerd Font Mono"
+# font
 
+font-family = "CommitMono Nerd Font Mono"
 font-size = 18
+
+# keybind
+
+keybind = super+alt+h=goto_split:left
+keybind = super+alt+l=goto_split:right
